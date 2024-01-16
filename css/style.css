@@ -23,8 +23,8 @@ body {
   font-size: 18px;
   font-weight: 500;
   line-height: normal;
-  background-color: #ecf2ff;
-  color: #303b59;
+  background-color: rgba(255, 255, 255, 1);
+  color: #717fa6;
 }
 
 img {
