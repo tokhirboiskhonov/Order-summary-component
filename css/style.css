@@ -301,9 +301,6 @@ img {
 }
 
 @media only screen and (max-width: 320px) {
-  body {
-    padding: 0;
-  }
 
   .order-summary-card__wrapper {
     padding: 10px;
