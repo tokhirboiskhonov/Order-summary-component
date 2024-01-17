@@ -195,6 +195,7 @@ img {
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
 }
+
 @media only screen and (max-width: 500px) {
   body {
     padding: 24px;
@@ -247,5 +248,82 @@ img {
     max-width: 279px;
     width: 100%;
     margin-bottom: 24px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  body {
+    padding: 15px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    padding: 10px;
+  }
+
+  .order-summary-card__wrapper {
+    padding: 24px;
+  }
+
+  .order-summary-card__plan {
+    padding: 12px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  body {
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 639px 194px;
+  }
+
+  .order-summary-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .order-summary-card__img {
+    object-fit: contain;
+  }
+
+  .order-summary-card__wrapper {
+    padding: 24px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .order-summary-card {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    padding: 0;
+  }
+
+  .order-summary-card__wrapper {
+    padding: 10px;
+  }
+
+  .order-summary-card__title {
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+
+  .order-summary-card__description {
+    margin-bottom: 8px;
+  }
+
+  .order-summary-card__plan {
+    margin-bottom: 24px;
+    padding: 8px;
+  }
+
+  .payment-button {
+    margin-bottom: 18px;
   }
 }
