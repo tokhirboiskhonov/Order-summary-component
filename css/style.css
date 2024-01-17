@@ -195,3 +195,57 @@ img {
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
 }
+@media only screen and (max-width: 500px) {
+  body {
+    padding: 24px;
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 639px 194px;
+  }
+
+  .order-summary-card__img {
+    object-fit: contain;
+  }
+
+  .order-summary-card__wrapper {
+    padding: 32px;
+  }
+
+  .order-summary-card__title {
+    margin-bottom: 16px;
+    font-size: 22px;
+  }
+
+  .order-summary-card__description {
+    max-width: 263px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .order-summary-card__plan {
+    width: 279px;
+    padding: 16px;
+  }
+
+  .order-summary-card__plan--inner {
+    gap: 3px;
+  }
+
+  .order-summary-card__plan--inner p {
+    font-size: 14px;
+  }
+
+  .order-summary-card__link {
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .payment-button {
+    max-width: 279px;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+}
